@@ -1,0 +1,19 @@
+#maze-container {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.north-wall { border-top: 2px solid black; }
+.south-wall { border-bottom: 2px solid black; }
+.east-wall { border-right: 2px solid black; }
+.west-wall { border-left: 2px solid black; }
+
+.path { background-color: yellow; }
